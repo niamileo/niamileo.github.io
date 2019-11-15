@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portflio</title>
+</head>
+
+<body>
+
+    <!-- HEADER (NAVBAR & HERO IMAGE AND STUFF) -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>I'm Amir Ehsan Haji Hussaini</h1>
+            <p>I am a Front End Developer</p>
+            <button>See My Portfolio</button>
+        </div>
+
+        <header>
+            <nav id="nav_bar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="legacy.html">Amature Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="menu-toggle" onclick="toggle_it()"><img src="images/menu.svg" alt="Menu Toggle">
+            </a>
+        </header>
+    </div>
+
+    <h1 class="portfolio-headline">Portfolio</h1>
+    <hr>
+
+    <div class="portfolio-container">
+        <div class="portfolio-item-container">
+            <div class="portfolio-item-image">
+                <img src="images/acodelearn.jpg" srcset="">
+            </div>
+            <div class="portfolio-item-description">
+                <h2>Persian Udacity</h2>
+                <p>A Simple Project to offer Udacity tutorials with persian subtitle, that was just for fun and practice. (It's NOT Resposive)</p>
+                <div class="portfolio-item-btns">
+                    <button class="btn btn-preview "><a href="projects/acodelearn/index.html">Preview</a></button>
+                    <button class="btn btn-code "><a href="https://github.com/niamileo/ACodeLearn ">View Code</a></button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+    </div>
+
+    <script>
+        var drawer = document.getElementById('nav_bar');
+
+        function toggle_it() {
+            drawer.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
