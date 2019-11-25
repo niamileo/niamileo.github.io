@@ -37,10 +37,13 @@ html {
 .hero-text button {
     border: none;
     outline: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text button a {
     display: inline-block;
     padding: 10px 25px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     cursor: pointer;
 }
@@ -97,7 +100,7 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
-.portfolio-container {
+#portfolio-container {
     box-sizing: border-box;
 }
 
@@ -235,5 +238,3 @@ hr {
         width: 100%;
     }
 }
-
-W
