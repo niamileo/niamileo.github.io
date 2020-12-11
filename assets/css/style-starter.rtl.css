@@ -13907,7 +13907,7 @@ p.counter {
 
 @media (max-width: 767px) {
   .technologies-left {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
