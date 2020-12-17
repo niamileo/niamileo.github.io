@@ -13883,7 +13883,7 @@ p.counter {
 .technologies-left {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 30px;
 }
 
 @media (max-width: 1080px) {
